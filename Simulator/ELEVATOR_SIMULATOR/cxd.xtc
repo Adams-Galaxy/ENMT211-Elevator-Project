@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cxdconfig magnification="100" screentableexpand="true" currenthostkey="1">
+<cxdconfig showonstatus="false" magnification="100" screentableexpand="true" currenthostkey="1">
 	<errorcheckconfig>
 		<checkpartsplacedontouchpoint check="false">
 		</checkpartsplacedontouchpoint>
@@ -9,7 +9,7 @@
 		</item>
 	</categorylist>
 	<useasdefault>
-		<defaultform width="850" height="768" popupwidth="320" popupheight="240" backgroundcolor="#696969">
+		<defaultform width="1024" height="768" popupwidth="320" popupheight="240" backgroundcolor="#696969">
 		</defaultform>
 	</useasdefault>
 	<testrunconfig hostname="SERIALA" networkid="3" cxpfilepath="C:\Users\Scott\Desktop\ELEVATOR_SIM\FAKE_ELEVATOR_TEMPLATE.cxp">
@@ -20,4 +20,6 @@
 		<lastopenedform index="0" type="screen">
 		</lastopenedform>
 	</lastopenedforms>
+	<gridconfig visible="true" color="black" snap="true">
+	</gridconfig>
 </cxdconfig>
