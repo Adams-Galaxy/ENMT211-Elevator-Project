@@ -51,19 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="1707 5";
+  Pos:="1916 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1707 5 2560 500";
+  MRUDockPos:="1916 5 2560 364";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 1408";
+  MRUFloatPos:="-1 1397";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="334848";
+  PctWidth:="252547";
   MRUFloat:="300 180";
-  MRUHorzDock:="853 495";
+  MRUHorzDock:="644 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +75,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="675 5";
+  Pos:="1165 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="675 5 1701 500";
+  MRUDockPos:="1165 5 1910 364";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="402760";
+  PctWidth:="292717";
   MRUFloat:="300 180";
-  MRUHorzDock:="1026 495";
+  MRUHorzDock:="745 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -99,20 +99,19 @@ BEGIN
  Bar[4]:=
  BEGIN
   BarID:=59416;
-  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 950 185";
+  MRUDockPos:="1 5 1159 364";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="555729";
+  PctWidth:="454735";
   MRUFloat:="300 180";
-  MRUHorzDock:="1416 495";
+  MRUHorzDock:="1158 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -127,9 +126,9 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=59420;
-  MRUDockPos:="0 -2 300 708";
+  MRUDockPos:="0 -2 300 874";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=8084;
   ExStyle:=3889;
   PrevFloating:=0;
@@ -137,7 +136,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 710";
+  MRUVertDock:="300 876";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -148,19 +147,20 @@ BEGIN
  Bar[6]:=
  BEGIN
   BarID:=59415;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 669 500";
+  MRUDockPos:="1 5 937 364";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 0";
+  MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="262390";
+  PctWidth:="100000";
   MRUFloat:="300 180";
-  MRUHorzDock:="668 495";
+  MRUHorzDock:="936 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -176,20 +176,19 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=69;
- Item[3]:=70;
- Item[4]:=85;
- ItemCount:=5;
- Sumcheck:=189;
- Selected:=136;
+ Item[2]:=132;
+ Item[3]:=148;
+ ItemCount:=4;
+ Sumcheck:=267;
+ Selected:=164;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0052 0052 2072 0526";
+ Norm:="0104 0104 2072 0692";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.ResetPID!ResetPID";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.AquireNewTarget!AquireNewTarget";
  Type:=9;
- Ysplit:=145;
+ Ysplit:=183;
  Views:=
  BEGIN
   View[0]:=
@@ -205,71 +204,61 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0026 0026 1192 0451";
+ Norm:="0208 0208 2176 0796";
  Min:="-001 -001";
- Path:="C:\Users\Adam Williams\Programming\ENMT211-Elevator-Project\ELEVATOR_PROGRAM.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
- Type:=3;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.DOOR_CONTROL!DOOR_CONTROL";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=129;
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-    SortCol:=2;
-   END;
+   Yscroll:=16;
   END;
   nViews:=1;
  END;
 END;
 Frame[2]:=
 BEGIN
- Norm:="0156 0156 2176 0630";
+ Norm:="0260 0260 2228 0848";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.LAMP_MAPPING!LAMP_MAPPING";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=2;
+   Yscroll:=13;
   END;
   nViews:=1;
  END;
 END;
 Frame[3]:=
 BEGIN
- Norm:="0000 0000 2020 0474";
+ Norm:="0182 0182 2150 0770";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
- Type:=1;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.ResetDIrectionalLampStates!ResetDIrectionalLampStates";
+ Type:=9;
+ Ysplit:=183;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Mag:=1;
   END;
-  nViews:=1;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
  END;
 END;
 Frame[4]:=
 BEGIN
- Norm:="0208 0208 2228 0682";
+ Norm:="0234 0234 2202 0822";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Arrive!Arrive";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.MotionControl!MotionControl";
  Type:=9;
- Ysplit:=145;
+ Ysplit:=183;
  Views:=
  BEGIN
   View[0]:=
@@ -285,11 +274,11 @@ BEGIN
 END;
 Frame[5]:=
 BEGIN
- Norm:="0026 0026 2046 0500";
+ Norm:="0208 0208 2176 0796";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.CheckArrival!CheckArrival";
  Type:=9;
- Ysplit:=145;
+ Ysplit:=183;
  Views:=
  BEGIN
   View[0]:=
@@ -305,11 +294,11 @@ BEGIN
 END;
 Frame[6]:=
 BEGIN
- Norm:="0000 0000 2020 0474";
+ Norm:="0156 0156 2124 0744";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.check_requests!check_requests";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SetDirectionalLampStates!SetDirectionalLampStates";
  Type:=9;
- Ysplit:=145;
+ Ysplit:=183;
  Views:=
  BEGIN
   View[0]:=
@@ -325,26 +314,11 @@ BEGIN
 END;
 Frame[7]:=
 BEGIN
- Norm:="0234 0234 2254 0708";
+ Norm:="0286 0286 2254 0874";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.MOTOR_CONTROL!MOTOR_CONTROL";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
-BEGIN
- Max:=true;
- Norm:="0026 0026 2046 0500";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.PID!PID";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.PendingRequestsAbove!PendingRequestsAbove";
  Type:=9;
- Ysplit:=145;
+ Ysplit:=183;
  Views:=
  BEGIN
   View[0]:=
@@ -358,7 +332,48 @@ BEGIN
   nViews:=2;
  END;
 END;
-nFrames:=9;
+Frame[8]:=
+BEGIN
+ Norm:="0000 0000 1968 0588";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.PendingRequestsBelow!PendingRequestsBelow";
+ Type:=9;
+ Ysplit:=183;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0130 0130 2098 0718";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.CheckServiceRequests!CheckServiceRequests";
+ Type:=9;
+ Ysplit:=183;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+nFrames:=10;
 WatchWindow:=
 BEGIN
  NumWatch:=4;
@@ -374,7 +389,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=95;
-  NumWatches:=29;
+  NumWatches:=33;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -566,7 +581,7 @@ BEGIN
   Watch[26]:=
   BEGIN
    PLC:="NewPLC1";
-   Reference:="error_intergral";
+   Reference:="PID_error_intergral";
    TypeKnown:=true;
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=8;
@@ -580,6 +595,38 @@ BEGIN
    Type:=8;
   END;
   Watch[28]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="is_state_loading";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[29]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="is_state_stationary";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[30]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="is_state_traversal";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
+  END;
+  Watch[31]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="Wahhhh";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=8;
+  END;
+  Watch[32]:=
   BEGIN
   END;
  END;
@@ -658,7 +705,7 @@ BEGIN
   Watch[9]:=
   BEGIN
    PLC:="NewPLC1";
-   Reference:="error_intergral";
+   Reference:="PID_error_intergral";
    TypeKnown:=true;
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=8;
