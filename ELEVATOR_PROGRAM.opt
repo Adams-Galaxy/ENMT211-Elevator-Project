@@ -51,19 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="2001 5";
+  Pos:="1579 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="2001 5 2560 364";
+  MRUDockPos:="1579 5 2560 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 1397";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="219462";
+  PctWidth:="384839";
   MRUFloat:="300 180";
-  MRUHorzDock:="559 359";
+  MRUHorzDock:="981 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +75,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="1161 5";
+  Pos:="111 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="1161 5 1995 364";
+  MRUDockPos:="111 5 1573 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="327427";
+  PctWidth:="574157";
   MRUFloat:="300 180";
-  MRUHorzDock:="834 359";
+  MRUHorzDock:="1462 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -102,16 +102,16 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1155 364";
+  MRUDockPos:="1 5 105 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="453109";
+  PctWidth:="41003";
   MRUFloat:="300 180";
-  MRUHorzDock:="1154 359";
+  MRUHorzDock:="104 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -185,22 +185,7 @@ BEGIN
 END;
 Frame[0]:=
 BEGIN
- Norm:="0130 0130 2098 0718";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.MANUAL_CONTROL!MANUAL_CONTROL";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=15;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
-BEGIN
- Norm:="0208 0208 2176 0796";
+ Norm:="0208 0208 2148 0796";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.UpdateSD!UpdateSD";
  Type:=9;
@@ -218,9 +203,9 @@ BEGIN
   nViews:=2;
  END;
 END;
-Frame[2]:=
+Frame[1]:=
 BEGIN
- Norm:="0182 0182 2150 0770";
+ Norm:="0182 0182 2122 0770";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.UpdateDirectionFromPosition!UpdateDirectionFromPosition";
  Type:=9;
@@ -238,9 +223,9 @@ BEGIN
   nViews:=2;
  END;
 END;
-Frame[3]:=
+Frame[2]:=
 BEGIN
- Norm:="0286 0286 2254 0874";
+ Norm:="0286 0286 2226 0874";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.INIT!INIT";
  Type:=1;
@@ -252,9 +237,9 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[3]:=
 BEGIN
- Norm:="0026 0026 1994 0614";
+ Norm:="0026 0026 1966 0614";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
  Type:=1;
@@ -266,9 +251,9 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[4]:=
 BEGIN
- Norm:="0052 0052 2020 0640";
+ Norm:="0052 0052 1992 0640";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.INPUT_MAPPING!INPUT_MAPPING";
  Type:=1;
@@ -281,9 +266,9 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[5]:=
 BEGIN
- Norm:="0260 0260 2228 0848";
+ Norm:="0260 0260 2200 0848";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SD_CONTROL!SD_CONTROL";
  Type:=1;
@@ -295,24 +280,9 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[7]:=
+Frame[6]:=
 BEGIN
- Norm:="0078 0078 2046 0666";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=24;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
-BEGIN
- Norm:="0234 0234 2202 0822";
+ Norm:="0234 0234 2174 0822";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.MOTOR_CONTROL!MOTOR_CONTROL";
  Type:=1;
@@ -324,17 +294,63 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[9]:=
+Frame[7]:=
 BEGIN
- Max:=true;
- Norm:="0104 0104 2072 0692";
+ Norm:="0052 0052 1484 0491";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.DOOR_CONTROL!DOOR_CONTROL";
+ Path:="C:\Users\Adam Williams\Programming\ENMT211-Elevator-Project\ELEVATOR_PROGRAM.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+    SortCol:=2;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
+BEGIN
+ Norm:="0078 0078 2018 0666";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.MAIN!MAIN";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=14;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0104 0104 2044 0692";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.LOADING!LOADING";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=1;
   END;
   nViews:=1;
  END;
