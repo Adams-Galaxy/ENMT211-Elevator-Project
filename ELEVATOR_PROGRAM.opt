@@ -51,19 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="1581 5";
+  Pos:="840 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1581 5 2560 364";
+  MRUDockPos:="840 5 2560 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 1397";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="384135";
+  PctWidth:="673717";
   MRUFloat:="300 180";
-  MRUHorzDock:="979 359";
+  MRUHorzDock:="1720 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -75,19 +75,19 @@ BEGIN
  Bar[3]:=
  BEGIN
   BarID:=59412;
-  Pos:="115 5";
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=59422;
-  MRUDockPos:="115 5 1575 364";
+  MRUDockPos:="1 5 834 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="573107";
+  PctWidth:="326282";
   MRUFloat:="300 180";
-  MRUHorzDock:="1460 359";
+  MRUHorzDock:="833 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -99,19 +99,20 @@ BEGIN
  Bar[4]:=
  BEGIN
   BarID:=59416;
+  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 109 364";
+  MRUDockPos:="1 5 579 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
-  PctWidth:="42756";
+  PctWidth:="226880";
   MRUFloat:="300 180";
-  MRUHorzDock:="108 359";
+  MRUHorzDock:="578 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -151,7 +152,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 937 364";
+  MRUDockPos:="1 5 827 364";
   MRUFloatStyle:=4;
   MRUFloatPos:="-1 0";
   Style:=36756;
@@ -160,7 +161,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="100000";
   MRUFloat:="300 180";
-  MRUHorzDock:="936 359";
+  MRUHorzDock:="826 359";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -178,12 +179,66 @@ BEGIN
  Item[1]:=2;
  Item[2]:=228;
  Item[3]:=229;
- Item[4]:=244;
- ItemCount:=5;
+ ItemCount:=4;
  Sumcheck:=403;
- Selected:=365;
+ Selected:=236;
 END;
 Frame[0]:=
+BEGIN
+ Norm:="0234 0234 2202 0822";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.CheckServiceRequests!CheckServiceRequests";
+ Type:=9;
+ Ysplit:=183;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0260 0260 2228 0848";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.AquireNewTarget!AquireNewTarget";
+ Type:=9;
+ Ysplit:=183;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0104 0104 2044 0692";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.LOADING!LOADING";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=11;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
 BEGIN
  Norm:="0078 0078 2046 0666";
  Min:="-001 -001";
@@ -197,9 +252,37 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[1]:=
+Frame[4]:=
 BEGIN
- Norm:="0052 0052 1484 0491";
+ Norm:="0130 0130 2098 0718";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT!ELEVATOR_PROJECT.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0156 0156 2124 0744";
  Min:="-001 -001";
  Path:="C:\Users\Adam Williams\Programming\ENMT211-Elevator-Project\ELEVATOR_PROGRAM.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
@@ -208,7 +291,7 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=139;
+   Yscroll:=95;
    Mag:=1;
    Extra:=
    BEGIN
@@ -228,127 +311,45 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[2]:=
+Frame[6]:=
 BEGIN
- Norm:="0104 0104 2072 0692";
+ Norm:="0286 0286 2254 0874";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.MotionControl!MotionControl";
- Type:=9;
- Ysplit:=183;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0052 0052 2020 0640";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.MANUAL_CONTROL!MANUAL_CONTROL";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=50;
   END;
   nViews:=1;
  END;
 END;
-Frame[4]:=
-BEGIN
- Norm:="0182 0182 2150 0770";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SetDirectionalLampStates!SetDirectionalLampStates";
- Type:=9;
- Ysplit:=183;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0208 0208 2176 0796";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Arrive!Arrive";
- Type:=9;
- Ysplit:=183;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0156 0156 2124 0744";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.PredictDirection!PredictDirection";
- Type:=9;
- Ysplit:=183;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
 Frame[7]:=
 BEGIN
- Norm:="0104 0104 2044 0692";
+ Norm:="0260 0260 2228 0848";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.LOADING!LOADING";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=63;
   END;
   nViews:=1;
  END;
 END;
 Frame[8]:=
 BEGIN
- Norm:="0234 0234 2202 0822";
+ Norm:="0000 0000 1968 0588";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.MAIN!MAIN";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.INIT!INIT";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=14;
+   Yscroll:=107;
   END;
   nViews:=1;
  END;
@@ -356,22 +357,17 @@ END;
 Frame[9]:=
 BEGIN
  Max:=true;
- Norm:="0260 0260 2228 0848";
+ Norm:="0026 0026 1994 0614";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.SIMULATOR_HELPER!SIMULATOR_HELPER";
- Type:=9;
- Ysplit:=183;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.INPUT_MAPPING!INPUT_MAPPING";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
+   Yscroll:=113;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 nFrames:=10;
@@ -390,7 +386,7 @@ BEGIN
   ColumnWidth[3]:=60;
   ColumnWidth[4]:=60;
   ColumnWidth[5]:=95;
-  NumWatches:=40;
+  NumWatches:=42;
   Watch[0]:=
   BEGIN
    PLC:="NewPLC1";
@@ -538,8 +534,16 @@ BEGIN
   END;
   Watch[20]:=
   BEGIN
+   PLC:="NewPLC1";
+   Reference:="flag_request_cancelled";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=0;
   END;
   Watch[21]:=
+  BEGIN
+  END;
+  Watch[22]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="ELEVATOR_POSITION";
@@ -547,7 +551,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=8;
   END;
-  Watch[22]:=
+  Watch[23]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="_COUNTER";
@@ -555,7 +559,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=212;
   END;
-  Watch[23]:=
+  Watch[24]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="last_output";
@@ -563,7 +567,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=8;
   END;
-  Watch[24]:=
+  Watch[25]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="WINCH_MOTOR";
@@ -571,7 +575,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=210;
   END;
-  Watch[25]:=
+  Watch[26]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="PID_testing";
@@ -579,7 +583,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[26]:=
+  Watch[27]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="last_error";
@@ -587,7 +591,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=8;
   END;
-  Watch[27]:=
+  Watch[28]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="PID_error_intergral";
@@ -595,10 +599,10 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=8;
   END;
-  Watch[28]:=
+  Watch[29]:=
   BEGIN
   END;
-  Watch[29]:=
+  Watch[30]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="enter_maual_control";
@@ -606,10 +610,10 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[30]:=
+  Watch[31]:=
   BEGIN
   END;
-  Watch[31]:=
+  Watch[32]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="system_state";
@@ -617,7 +621,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=4;
   END;
-  Watch[32]:=
+  Watch[33]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="is_state_idle";
@@ -625,7 +629,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[33]:=
+  Watch[34]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="is_state_traversing";
@@ -633,7 +637,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[34]:=
+  Watch[35]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="is_state_loading";
@@ -641,7 +645,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[35]:=
+  Watch[36]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="is_state_manual_control";
@@ -649,10 +653,10 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[36]:=
+  Watch[37]:=
   BEGIN
   END;
-  Watch[37]:=
+  Watch[38]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="SD_output";
@@ -660,7 +664,7 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=4;
   END;
-  Watch[38]:=
+  Watch[39]:=
   BEGIN
    PLC:="NewPLC1";
    Reference:="direction";
@@ -668,7 +672,15 @@ BEGIN
    Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
    Type:=0;
   END;
-  Watch[39]:=
+  Watch[40]:=
+  BEGIN
+   PLC:="NewPLC1";
+   Reference:="D208";
+   TypeKnown:=true;
+   Path:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+   Type:=200;
+  END;
+  Watch[41]:=
   BEGIN
   END;
  END;
